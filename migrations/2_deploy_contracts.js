@@ -1,5 +1,5 @@
 const MetaToken = artifacts.require("MetaToken");
 
 module.exports = function (deployer) {
-  deployer.deploy(MetaToken);
+  deployer.deploy(MetaToken, 1000000);
 };
